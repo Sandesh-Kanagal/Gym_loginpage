@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness overloaded</title>
+    <link rel="stylesheet" href="look.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gyms.png" alt="">
+            <div>Fitness Overloaded</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness tips</a></li>
+                <li><a href="#">Contacts us</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> chat  now</button>
+            <button class="btn">email  us</button>
+        </div>
+    </header>
+    <div class="container">
+       <h1>Workout everyday with FITNESS OVERLOADED </h1>
+       <form action="backend.php">
+
+           <div class="form-group">
+            <label for="MyName">Name:</label>
+               <input type="text" name="MyName" placeholder="Enter your name eg. sandesh">
+           </div>
+
+           <div class="form-group">
+            <label for="MyAge">Age:</label>
+               <input type="" name="" placeholder="Enter your age">
+           </div>
+
+           <div class="form-group">
+            <label for="Mycontact">Contact no.:</label>
+               <input type="text" name="contact" placeholder="Enter your contacts number">
+           </div>
+
+           <div class="form-group">
+            <label for="Gender">Preffered batch:</label>
+            <select name="myGender" id="gender">
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select>
+           </div>
+
+           <div class="form-group">
+            <label for="batch">Preffered batch:</label>
+            <select name="mybatch" id="batch" >
+            <option value="">select Batch slot</option>
+            <option value="7">batch 1: 7am to 9am</option>
+            <option value="9">batch 2: 9am to 11am</option>
+            <option value="18">batch 3: 6pm to 8pm</option>
+            <option value="20">batch 3: 8pm to 10pm</option>
+            </select>
+           </div>
+
+           <input type="submit" value="Submit" class="click">
+           <input type="reset" value="Reset" class="click">
+       </form>
+
+    </div>
+
+</body>
+
+</html>
